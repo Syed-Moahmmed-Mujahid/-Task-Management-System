@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Task Manager with Reminders</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="main-header">
+    <div class="project-name">Project 04: <strong>Task Management System</strong></div>
+    <div class="author-name">By: <strong>Syed Mohammed Mujahid</strong></div>
+  </header>
+  <div class="container">
+    <h1>Task Manager</h1>
+    <div class="add-task">
+      <input type="text" id="taskInput" placeholder="Add a new task...">
+      <button id="addBtn">Add</button>
+    </div>
+    <section>
+      <h2>Pending Tasks</h2>
+      <ul id="pendingTasks"></ul>
+    </section>
+    <section>
+      <h2>Completed Tasks</h2>
+      <ul id="completedTasks"></ul>
+    </section>
+    <section>
+      <h2>Deleted Tasks</h2>
+      <ul id="deletedTasks"></ul>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
